@@ -1,0 +1,11 @@
+@font-face{font-family:"Pixel";src:url("../fonts/Cubic_11.woff2") format("woff2");font-display:swap}
+:root{--navy:#0b2a4a;--sea:#1d5f8a;--foam:#6fb7d6;--card:#fff6dd;--border:#8a5a33;--coral:#e8553d;--sand:#f2dfb0}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:"Pixel","Noto Sans TC","Microsoft JhengHei",sans-serif;color:var(--navy);background:var(--sea) url("../assets/wave.png") repeat;font-size:16px;line-height:1.6;min-height:100vh}
+.top{display:flex;align-items:center;gap:12px;padding:12px 24px;background:var(--navy);color:var(--card);border-bottom:4px solid var(--border)}
+.top h1{margin:0;font-size:24px}.top .sub{margin-left:auto;font-size:14px;color:var(--foam)}
+.crab{width:48px;height:42px;image-rendering:pixelated}
+#app{max-width:1000px;margin:24px auto;padding:0 16px}
+.foot{text-align:center;color:var(--card);font-size:12px;padding:16px;opacity:.8}
+img.px,canvas.px{image-rendering:pixelated}
