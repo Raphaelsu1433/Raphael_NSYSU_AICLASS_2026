@@ -16,7 +16,7 @@ GitHub → Settings → Pages → Branch: main / (root)。網址：https://rapha
 
 ## 資料維護
 - 起點與半徑：`js/config.js`（起點為 Wikipedia 的西子灣隧道座標，近似值）
-- 餐廳：`data/restaurants.js`（座標目前是依地址概估，請用 Google Maps 右鍵複製座標修正；價格來自網路文章，可能過期）
+- 餐廳：`data/restaurants.js`（座標與 placeId 取自 Google 地點資料；有「iFoodie 均消」的價格來自 ifoodie.tw，其餘顯示未提供；皆以現場為準）
 - 預設類型：`data/default-types.js`
 - 圖檔全在 `assets/`（原創像素圖，由 PIL 腳本產生）
 

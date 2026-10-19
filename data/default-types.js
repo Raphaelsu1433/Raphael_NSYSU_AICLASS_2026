@@ -7,5 +7,10 @@ FoodWheel.defaultTypes = [
   { id: 'steak',     name: '牛排',     icon: 'assets/steak.png',     builtin: true },
   { id: 'pasta',     name: '義大利麵', icon: 'assets/pasta.png',     builtin: true },
   { id: 'burger',    name: '漢堡',     icon: 'assets/burger.png',    builtin: true },
-  { id: 'bibimbap',  name: '韓式拌飯', icon: 'assets/bibimbap.png',  builtin: true }
+  { id: 'bibimbap',  name: '韓式拌飯', icon: 'assets/bibimbap.png',  builtin: true },
+  { id: 'luwei',     name: '滷味',     icon: 'assets/luwei.png',     builtin: true },
+  { id: 'hotpot',    name: '火鍋',     icon: 'assets/hotpot.png',    builtin: true },
+  { id: 'pizza',     name: '披薩',     icon: 'assets/pizza.png',     builtin: true },
+  { id: 'mexican',   name: '墨西哥',   icon: 'assets/mexican.png',   builtin: true },
+  { id: 'poke',      name: 'Poke',     icon: 'assets/poke.png',      builtin: true }
 ];
